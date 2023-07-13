@@ -23,7 +23,9 @@ const Test = () => {
       {
         checkLoginIframe: false,
         redirectUri: 'http://14.32.42.32:8084/test2',
+        //redirectUri: 'http://localhost:3001/test2',
         onLoad: 'login-required',
+        //promiseType: 'native'
         //silentCheckSsoRedirectUri: `${location.origin}/silent-check-sso.html`
 
       }
@@ -37,7 +39,7 @@ const Test = () => {
       }
 
       console.log('keycloak.token')
-      alert(keycloak.token)
+      console.log(keycloak.token)
     
     
       localStorage.setItem('access-token', keycloak.token);

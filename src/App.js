@@ -58,11 +58,7 @@ function App() {
  // });
   
   
-  const keycloakTest = async() => {
-    const res = await axios.get('/admin/realms')
-  
-    console.log(res)
-  }
+
   return (
     
     <Routes>

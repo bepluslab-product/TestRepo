@@ -7,7 +7,7 @@ import axios from "axios";
 import { BrowserRouter } from "react-router-dom";
 
 
-axios.defaults.baseURL = "http://dev.keycloak.bumin.co.kr/auth";
+axios.defaults.baseURL = "https://172.30.1.58:8091/auth";
 
 
 
@@ -18,7 +18,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <App />
+      <App />
     </BrowserRouter>
   </React.StrictMode>
 );
