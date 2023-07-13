@@ -22,7 +22,7 @@ const Test = () => {
     keycloak.init(
       {
         checkLoginIframe: false,
-        redirectUri: 'http://localhost:3001/test2',
+        redirectUri: 'http://14.32.42.32:8084/test2',
         onLoad: 'login-required',
         //silentCheckSsoRedirectUri: `${location.origin}/silent-check-sso.html`
 
