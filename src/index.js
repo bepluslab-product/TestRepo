@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import axios from "axios";
-
+import { BrowserRouter } from "react-router-dom";
 
 
 axios.defaults.baseURL = "http://dev.keycloak.bumin.co.kr/auth";
@@ -17,7 +17,9 @@ axios.defaults.baseURL = "http://dev.keycloak.bumin.co.kr/auth";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
