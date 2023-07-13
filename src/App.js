@@ -1,9 +1,7 @@
-import logo from './logo.svg';
+
 import './App.css';
-import axios from "axios";
-import {useEffect} from "react";
-import Keycloak from 'keycloak-js'
-import { Route, Router, Routes } from "react-router-dom";
+
+import { Route, Routes } from "react-router-dom";
 import Test from "./pages/Test";
 import Test2 from "./pages/Test2";
 

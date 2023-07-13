@@ -1,5 +1,5 @@
 
-import axios from "axios";
+
 import {useEffect} from "react";
 import Keycloak from 'keycloak-js'
 
@@ -30,7 +30,7 @@ const Test = () => {
 
       }
     ).then(auth => {
-      const ONE_MINUTE = 60000;
+      //const ONE_MINUTE = 60000;
     
       if (!auth) {
        // window.location.href = 'http://localhost:3001'
